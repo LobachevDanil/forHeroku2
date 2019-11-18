@@ -31,6 +31,7 @@ public class TelegramBot extends TelegramLongPollingBot implements IPublisher {
             String chatId = message.getChatId().toString();
             String firstName = message.getChat().getFirstName();
             printToConsole(message.getDate(), chatId, firstName, text);
+            log.log(Level.INFO, "TEXT: ", text);
             telegramBotLogic.objectModified(new TelegramMesData(firstName, chatId, text));
         }
     }

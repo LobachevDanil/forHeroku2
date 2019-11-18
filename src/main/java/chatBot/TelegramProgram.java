@@ -1,11 +1,9 @@
-package chatBote;
+package chatBot;
 
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.TelegramBotsApi;
 import tasks_extractor.QuizTasksExtractor;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
-
-import java.io.File;
 
 public class TelegramProgram {
     public static String questionPath = "src\\main\\resources\\questions";

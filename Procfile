@@ -1,1 +1,1 @@
-worker: sh target/bin/chatbote
+worker: sh target/bin/chat_bot

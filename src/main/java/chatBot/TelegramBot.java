@@ -1,4 +1,4 @@
-package chatBote;
+package chatBot;
 
 import org.telegram.telegrambots.api.methods.send.SendMessage;
 import org.telegram.telegrambots.api.objects.Message;

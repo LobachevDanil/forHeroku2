@@ -1,4 +1,4 @@
-package chatBote;
+package chatBot;
 
 public class TelegramMesData {
     public String name;

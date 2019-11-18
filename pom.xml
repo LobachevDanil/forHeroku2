@@ -17,8 +17,8 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>chatBote.TelegramProgram</mainClass>
-                            <name>chatbote</name>
+                            <mainClass>chatBot.TelegramProgram</mainClass>
+                            <name>chat_bot</name>
                         </program>
                     </programs>
                 </configuration>

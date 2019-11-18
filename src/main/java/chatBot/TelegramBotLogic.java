@@ -1,4 +1,4 @@
-package chatBote;
+package chatBot;
 
 import game.Player;
 import game.QuizGame;

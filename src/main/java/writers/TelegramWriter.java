@@ -1,6 +1,6 @@
 package writers;
 
-import chatBote.TelegramBot;
+import chatBot.TelegramBot;
 
 public class TelegramWriter implements IWriter {
     private TelegramBot bot;

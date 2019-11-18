@@ -13,12 +13,14 @@ import publisher_subscriber.ISubscriber;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class TelegramBot extends TelegramLongPollingBot implements IPublisher {
     private final String botName = "Millionare_chat_bot";
     private final String token = "1055331641:AAHr8zihVZw7gWFvwNObGjVBAEiQ-cwkeiY";
     private ISubscriber telegramBotLogic;
+    private static Logger log = Logger.getLogger(TelegramBot.class.getName());
 
 
     @Override
@@ -43,7 +45,7 @@ public class TelegramBot extends TelegramLongPollingBot implements IPublisher {
         try {
             execute(sendMes);
         } catch (TelegramApiException e) {
-            e.printStackTrace();
+            log.log(Level.SEVERE, "Exception: ", e.toString());
         }
     }
 

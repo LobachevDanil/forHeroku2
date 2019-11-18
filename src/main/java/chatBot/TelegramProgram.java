@@ -7,7 +7,7 @@ import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 
 public class TelegramProgram {
-    public static String questionPath = "src\\main\\resources\\questions";
+    public static String questionPath = "src/main/resources/questions";
 
     public static void main(String[] args) {
         ApiContextInitializer.init();
